@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Access axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather forecast</title>
+</head>
+<body>
+    <div class="cont">
+    <h1> WEATHER FORECAST</h1>
+    <form id="city" > 
+    <div class="input">
+        <input id="inp" type="text" name="city" placeholder="Enter city . . ." autocomplete="off">
+        <button id="searchCity"><img src="loupe.png"  id="search" alt=""> </button> 
+    </div>
+    </form>
+    <ul id="list"></ul>
+</div>
+<div class="all">
+        
+            <div class="card">
+                <div class="card-inner">
+        <p class="date"> Today </p>
+        <div class="content-box">
+        <p id="cel" class="card-text"> <img src="thermometer.png"> : <span id="temp"> N/A </span> <sup>o</sup> C </p>
+        <p id="main" class="card-text"> <img src="cloudy.png" alt=""> : <span id="weather"> N/A </span></p>
+        <p id="more" class="card-text">  <img src="info (1).png" alt=""> : <span id="weatherExtend"> N/A </span></p>
+   
+    </div>
+</div>
+</div>
+
+ 
+        <div class="card">
+           <div class="card-inner">
+        <p class="date"> Tomorrow </p>
+        <div class="content-box">
+        <p id="cel" class="card-text"> <img src="thermometer.png"> :<span id="temp"> N/A </span> <sup>o</sup> C </p>
+        <p id="main" class="card-text"> <img src="cloudy.png" alt=""> :<span id="weather"> N/A </span></p>
+        <p id="more" class="card-text">  <img src="info (1).png" alt=""> : <span id="weatherExtend"> N/A </span></p>
+   
+    </div>
+    </div>
+    </div>
+
+        <div class="card">
+            <div class="card-inner">
+        <p class="date"> 3rd day </p>
+        <div class="content-box">
+        <p id="cel" class="card-text"> <img src="thermometer.png"> : <span id="temp"> N/A </span> <sup>o</sup> C </p>
+        <p id="main" class="card-text"> <img src="cloudy.png" alt=""> :<span id="weather"> N/A </span></p>
+        <p id="more" class="card-text">  <img src="info (1).png" alt=""> : <span id="weatherExtend"> N/A </span></p>
+
+    </div>
+    </div>
+</div>
+    
+        <div class="card">
+            <div class="card-inner">
+        <p class=" date"> 4th day </p>
+        <div class="content-box">
+        <p id="cel" class="card-text"> <img src="thermometer.png"> : <span id="temp"> N/A </span> <sup>o</sup> C </p>
+        <p id="main" class="card-text"> <img src="cloudy.png" alt=""> : <span id="weather"> N/A </span></p>
+        <p id="more" class="card-text">  <img src="info (1).png" alt=""> : <span id="weatherExtend"> N/A </span></p>
+    
+    </div>
+    </div>
+</div>
+   
+        <div class="card">
+            <div class="card-inner">
+        <p class=" date">5th day</p>
+        <div class="content-box">
+        <p id="cel"class="card-text"> <img src="thermometer.png"> : <span id="temp"> N/A </span> <sup>o</sup> C </p>
+        <p id="main" class="card-text"> <img src="cloudy.png" alt=""> : <span id="weather"> N/A </span></p>
+        <p id="more" class="card-text"> <img src="info (1).png" alt=""> :<span id="weatherExtend"> N/A </span></p>
+    </div>
+    </div>
+    </div>
+   
+</div>
+
+    <script src="weather.js"></script>
+    
+</body>
+</html>
